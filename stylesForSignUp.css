@@ -1,0 +1,73 @@
+html {
+    background-color: #1C3E6A;
+    font-family: "Eras ITC";
+}
+
+div.disabled {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container {
+    max-width: 600px;
+    overflow: hidden;
+    padding-left: 625px;
+    padding-top: 220px;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 3px solid #F62431;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    transition: 0.5s;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    padding: 20px 40px;
+    color: #F62431;
+    transition: 0.5s;
+}
+
+.buttons {
+    padding-left: 150px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 10px 4px #F62431;
+}
+
+.btn {
+    font-family: "Arial";
+    font-size: 16px;
+    padding: 12px;
+    background-color: #F62431;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: limegreen;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    font-family: "Eras ITC";
+}
+
+a:hover {
+    text-decoration: underline;
+}
